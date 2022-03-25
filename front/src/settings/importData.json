@@ -1,0 +1,43 @@
+{
+  "mainSettings": {
+    "restartEndPoint": ":1500/restart"
+  },
+  "patterns": [
+    {
+      "name": "screenplay",
+      "getEndPoint": "/screenplay",
+      "createAndUpdateEndPoint": "/screenplay",
+      "deleteEndPoint": "/screenplay"
+    },
+    {
+      "name": "delaydScreenplay",
+      "getEndPoint": "/delaydScreenplay",
+      "createAndUpdateEndPoint": "/delaydScreenplay",
+      "deleteEndPoint": "/delaydScreenplay"
+    },
+    {
+      "name": "setting",
+      "getEndPoint": "/setting",
+      "createAndUpdateEndPoint": "/setting",
+      "deleteEndPoint": "/setting"
+    },
+    {
+      "name": "message",
+      "getEndPoint": "/message",
+      "createAndUpdateEndPoint": "/message",
+      "deleteEndPoint": "/message"
+    },
+    {
+      "name": "select",
+      "getEndPoint": "/select",
+      "createAndUpdateEndPoint": "/select",
+      "deleteEndPoint": "/select"
+    },
+    {
+      "name": "question",
+      "getEndPoint": "/question",
+      "createAndUpdateEndPoint": "/question",
+      "deleteEndPoint": "/question"
+    }
+  ]
+}
